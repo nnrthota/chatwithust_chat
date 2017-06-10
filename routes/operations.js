@@ -15,7 +15,7 @@ function ensureAuthenticated(req, res, next) {
 }
 
 
-router.get('/', ensureAuthenticated, function(req, res){
+router.get('/',function(req, res){
   res.redirect('/chat/login');
 });
 
