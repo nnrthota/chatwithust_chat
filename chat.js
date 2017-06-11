@@ -15,7 +15,7 @@ var fs=require('fs');
 var Model = require('./models/user');
 
 //connect to the mongoosedb
-mongoose.connect('mongodb://localhost/login');
+mongoose.connect('mongodb://narendranath:Naththota.1@ds028540.mlab.com:28540/chatwithust');
 var db=mongoose.connction;   
 
 // Init App
